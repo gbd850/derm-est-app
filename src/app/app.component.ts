@@ -8,6 +8,7 @@ import { ProceduresComponent } from './procedures/procedures.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
 import { MediaComponent } from './media/media.component';
+import { BookingComponent } from './booking/booking.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,8 @@ import { MediaComponent } from './media/media.component';
     ProceduresComponent,
     AboutMeComponent,
     AdvantagesComponent,
-    MediaComponent
+    MediaComponent,
+    BookingComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
