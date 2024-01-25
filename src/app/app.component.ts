@@ -7,6 +7,7 @@ import { IntroducerComponent } from './introducer/introducer.component';
 import { ProceduresComponent } from './procedures/procedures.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
+import { MediaComponent } from './media/media.component';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +20,8 @@ import { AdvantagesComponent } from './advantages/advantages.component';
     IntroducerComponent,
     ProceduresComponent,
     AboutMeComponent,
-    AdvantagesComponent
+    AdvantagesComponent,
+    MediaComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
