@@ -9,6 +9,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { AdvantagesComponent } from './advantages/advantages.component';
 import { MediaComponent } from './media/media.component';
 import { BookingComponent } from './booking/booking.component';
+import { PartnersComponent } from './partners/partners.component';
 
 @Component({
   selector: 'app-root',
@@ -23,7 +24,8 @@ import { BookingComponent } from './booking/booking.component';
     AboutMeComponent,
     AdvantagesComponent,
     MediaComponent,
-    BookingComponent
+    BookingComponent,
+    PartnersComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
