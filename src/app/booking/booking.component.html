@@ -1,0 +1,79 @@
+<div class="relative container mx-auto text-center p-20">
+  <div>
+    <h2 class="font-serif text-[2.3vw] text-slate-500 p-4">
+      Zapisz się na wizytę
+    </h2>
+  </div>
+  <div>
+    <form class="max-w-2xl mx-auto">
+      <div class="mb-5">
+        <input
+          type="text"
+          id="name"
+          class="shadow-sm border-2 w-full h-12 px-4"
+          placeholder="Podaj imie i nazwisko"
+          required
+        />
+      </div>
+      <div class="mb-5">
+        <input
+          type="phone"
+          id="phone"
+          class="shadow-sm border-2 w-full h-12 px-4"
+          placeholder="Podaj swój numer telefonu"
+          required
+        />
+      </div>
+      <div class="mb-5">
+        <input
+          type="text"
+          id="name"
+          class="shadow-sm border-2 w-full h-12 px-4"
+          placeholder="Podaj swoje potrzeby"
+          required
+        />
+      </div>
+      <div class="mb-5">
+        <select id="procedure" class="shadow-sm border-2 w-full h-12 px-4">
+          <option value="" disabled selected hidden>
+            Wybierz interesujący Cię zabieg
+          </option>
+          <option>Skleroterapia</option>
+          <option>Lipoliza iniekcyjna</option>
+          <option>Mezoterapia</option>
+          <option>Kwas hialuronowy</option>
+        </select>
+      </div>
+      <div class="mb-5">
+        <input
+          type="text"
+          id="name"
+          class="shadow-sm border-2 w-full h-12 px-4"
+          placeholder="Jeśli masz dodatkowe pytania, zadaj je tutaj!"
+          required
+        />
+      </div>
+      <div class="flex items-start mb-5">
+        <div class="flex items-center h-5">
+          <input
+            id="terms"
+            type="checkbox"
+            value=""
+            class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+            required
+          />
+        </div>
+        <label
+          for="terms"
+          class="ms-2 text-sm font-sm text-gray-900 text-left"
+          >Wyrażam zgodę - DermEst potrzebuje danych kontaktowych, które nam
+          przekazujesz, aby kontaktować się z Tobą w sprawie naszych produktów i
+          usług.
+        </label>
+      </div>
+      <div>
+        <button type="submit" class="bg-slate-400 hover:bg-slate-500 text-white py-4 px-6 rounded w-52 h-14">WYŚLIJ ZGŁOSZENIE</button>
+      </div>
+    </form>
+  </div>
+</div>
