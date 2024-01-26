@@ -1,0 +1,28 @@
+<div class="relative">
+  <div
+    class="bg-slate-200 text-slate-600 text-[2.5vw] font-serif flex items-center justify-center p-7"
+  >
+    <h2>PROBLEMY</h2>
+  </div>
+  <div class="container mx-auto grid grid-cols-2 lg:grid-cols-4">
+    <a
+      *ngFor="let problem of problems"
+      class="flex flex-col items-center justify-center mx-auto text-center my-5 card border-0"
+      href="#"
+    >
+      <div class="card-zoom">
+        <img
+          class="max-w-60 scale-105 card-zoom-image"
+          src="{{ problem.imgUrl }}"
+        />
+      </div>
+      <div class="relative">
+        <h3
+          class="text-slate-600 text-2xl font-serif h-20 w-60 flex items-center justify-center"
+        >
+          {{ problem.name }}
+        </h3>
+      </div>
+    </a>
+  </div>
+</div>
