@@ -3,6 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutMePageComponent } from './about-us-page/about-me-page.component';
 import { ProblemsPageComponent } from './problems-page/problems-page.component';
 import { ProceduresPageComponent } from './procedures-page/procedures-page.component';
+import { PricingPageComponent } from './pricing-page/pricing-page.component';
 
 export const routes: Routes = [
   {
@@ -20,5 +21,9 @@ export const routes: Routes = [
   {
     path: 'zabiegi',
     component: ProceduresPageComponent,
+  },
+  {
+    path: 'cennik',
+    component: PricingPageComponent,
   },
 ];
