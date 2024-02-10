@@ -1,0 +1,29 @@
+<div class="relative">
+    <div
+      class="bg-slate-200 text-slate-600 text-[2.5vw] font-serif flex items-center justify-center p-7"
+    >
+      <h2>ZABIEGI</h2>
+    </div>
+    <div class="container mx-auto grid grid-cols-2 lg:grid-cols-4">
+      <a
+        *ngFor="let procedure of procedures"
+        class="flex flex-col items-center justify-start mx-auto text-center my-5 card border-0"
+        href="#"
+      >
+        <div class="card-zoom">
+          <img
+            class="max-w-60 scale-105 card-zoom-image"
+            src="{{ procedure.imageUrl }}"
+          />
+        </div>
+        <div class="relative">
+          <h3
+            class="text-slate-600 text-2xl font-serif min-h-24 w-60 flex items-center justify-center"
+          >
+            {{ procedure.name }}
+          </h3>
+        </div>
+      </a>
+    </div>
+  </div>
+  
